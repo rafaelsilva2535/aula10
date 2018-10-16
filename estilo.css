@@ -1,0 +1,130 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	color: #868686;
+}
+
+.image{
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-image: url(plano.jpg);
+	z-index: -1;
+}
+
+.logotext1{
+	color: white;
+	font-size: 2em;
+	margin-top: 1em;
+	margin-left: 5em;
+	position: fixed;
+}
+
+.logotext2{
+	color: white;
+	font-size: 5em;
+	margin-top: 5em;
+	margin-left: 2em;
+	position: fixed;
+}
+
+.logotext3{
+	color: white;
+	font-size: 2em;
+	margin-top: 16em;
+	margin-left: 5em;
+	position: fixed;
+}
+
+.parte2{
+	height: 600px;
+	width: 100vw;
+	display: flex;
+	position: fixed;
+	flex-direction: column;
+	margin-top: 600px;
+	background-color: white;
+}
+
+.navbar{
+	height: 3em;
+	width: 100vw;
+}
+
+.espaco{
+	padding-left: 9.5em;
+}
+
+.conteiner{
+	margin-top: 1em;
+	margin-left: 9%;
+	width: 100vw;
+}
+
+td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #868686;
+}
+
+.barra th{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	background-color:  #DEE2E6;
+	color: #6B6C6D;
+}
+
+.tb{
+	border-spacing: 0;
+	width: 85%;
+	text-align: left;
+}
+
+.pendente{
+	text-align: center;
+	color: #DEE2E6;
+	border-radius: 5px;
+	background-color: #007bff;
+}
+
+.entregue{
+	text-align: center;
+	color: #DEE2E6;
+	border-radius: 5px;
+	background-color: #28a745;
+}
+
+.cancelado{
+	text-align: center;
+	color: #DEE2E6;
+	border-radius: 5px;
+	background-color: #E82431;
+}
+
+
+.pedido{
+	padding-left: 20px;
+	color: #007bff;
+}
+
+.edit{
+	padding-left: 3px;
+	color: #FDDF4C;
+}
+
+.excluir{
+	padding-left: 20px;
+	color: #E82431;
+}
+
+.linha{
+	padding-left: 20px;
+}
